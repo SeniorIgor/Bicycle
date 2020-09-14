@@ -1,5 +1,8 @@
-# <a href="https://github.com/SeniorIgor/Menu-Burger#menu-burger"><img src="https://github.com/SeniorIgor/Menu-Burger/blob/master/for-readmy.svg" alt="menu-burger" width="40" height="auto"/></a> Menu burger
-### Menu-burger - адаптивное меню "бургер" на HTML, SCSS.
+# <a href="https://github.com/SeniorIgor/Menu-Burger#menu-burger"><img src="https://github.com/SeniorIgor/Menu-Burger/blob/master/for-readmy.svg" alt="menu-burger" width="40" height="auto"/></a> Bicycle
+### Bicycle - верстка главной страницы 
+туристического агентства «Городские круизы» по макету в формате PSD.
+Отзывчиво-адаптивный дизайн
+адаптивную вёрстку лендинга используя HTML, SCSS, БЭМ, JS. Проект собран с помощью Webpack. 
 
 <br>
 <br>
