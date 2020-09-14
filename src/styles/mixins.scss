@@ -1,0 +1,3 @@
+@mixin tr($trx, $try) {
+	transform: translate($trx, $try);
+}

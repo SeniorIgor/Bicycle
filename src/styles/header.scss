@@ -1,0 +1,175 @@
+.header {
+	position: absolute;
+	width: 100%;
+	z-index: 100;
+	top: 35px;
+	left: 0;
+
+	&__row {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 85px;
+	}
+
+	&__menu {
+	}
+
+	&__logo {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		z-index: 2;
+		@include tr(-50%, 0px);
+	}
+
+	@media (max-width: 767px) {
+		top: 15px;
+	}
+}
+.menu {
+	&__icon {
+	}
+
+	&__body {
+	}
+
+	&__list {
+		display: flex;
+
+		li {
+			padding: 0 37.5px;
+			position: relative;
+
+			&:nth-child(2) {
+				padding: 0 110px 0 37.5px;
+			}
+			&:nth-child(3) {
+				padding: 0 37.5px 0 110px;
+			}
+			&:after {
+				content: "";
+				position: absolute;
+				top: 50%;
+				right: 0;
+				margin: -1px -1.5px 0px 0px;
+				width: 3px;
+				height: 3px;
+				background-color: #4d4959;
+				border-radius: 50%;
+			}
+			&:nth-child(2n)::after {
+				display: none;
+			}
+		}
+	}
+
+	&__link {
+		color: #4d4959;
+		font-size: 13px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 2.6px;
+	}
+
+	@media (max-width: 767px) {
+		&__body {
+			position: fixed;
+			padding: 150px 0 20px 0;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background-color: #4d4959;
+			overflow: auto;
+			transform: translate(0px, -100%);
+			transition: all 0.3s ease;
+
+			&.active {
+				transform: translate(0px, 0px);
+			}
+		}
+
+		&__list {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			li {
+				padding: 0 0 35px 0;
+
+				&:nth-child(2),
+				&:nth-child(3) {
+					padding: 0 0 35px 0;
+					&::after {
+						display: block;
+					}
+				}
+
+				&:last-child {
+					padding: 0;
+				}
+
+				&:after {
+					top: 48px;
+					right: 50%;
+					margin: 0px -2px 0px 0px;
+					width: 4px;
+					height: 4px;
+					background-color: #ffffff;
+				}
+			}
+		}
+
+		&__link {
+			color: #ffffff;
+			font-size: 20px;
+		}
+	}
+}
+.icon-menu {
+	@media (max-width: 767px) {
+		display: block;
+		position: absolute;
+		top: 33px;
+		right: 20px;
+		width: 30px;
+		height: 18px;
+		cursor: pointer;
+		z-index: 5;
+
+		span {
+			position: absolute;
+			top: 8px;
+			left: 0px;
+			width: 100%;
+			height: 2px;
+			background-color: #000000;
+			transition: all 0.3s ease;
+
+			&:first-child {
+				top: 0;
+			}
+			&:last-child {
+				top: auto;
+				bottom: 0;
+			}
+		}
+
+		&.active {
+			span {
+				transform: scale(0);
+				background-color: #ffffff;
+
+				&:first-child {
+					transform: rotate(45deg);
+					top: 8px;
+				}
+				&:last-child {
+					transform: rotate(-45deg);
+					bottom: 8px;
+				}
+			}
+		}
+	}
+}

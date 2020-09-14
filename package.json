@@ -1,0 +1,38 @@
+{
+	"name": "methodology",
+	"version": "1.0.0",
+	"description": "methodology-course",
+	"private": true,
+	"scripts": {
+		"dev": "cross-env NODE_ENV=development webpack --mode development",
+		"build": "cross-env NODE_ENV=production webpack --mode production",
+		"watch": "cross-env NODE_ENV=development webpack --mode development --watch",
+		"start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open"
+	},
+	"keywords": [
+		"methodology"
+	],
+	"author": "Igor <igor.tyapkin1996@yandex.ru>",
+	"license": "ISC",
+	"devDependencies": {
+		"clean-webpack-plugin": "^3.0.0",
+		"copy-webpack-plugin": "^6.1.0",
+		"cross-env": "^7.0.2",
+		"css-loader": "^4.2.2",
+		"file-loader": "^6.1.0",
+		"html-webpack-plugin": "^4.4.1",
+		"mini-css-extract-plugin": "^0.11.0",
+		"node-sass": "^4.14.1",
+		"optimize-css-assets-webpack-plugin": "^5.0.4",
+		"sass-loader": "^10.0.2",
+		"source-map-loader": "^1.1.0",
+		"terser-webpack-plugin": "^4.1.0",
+		"webpack": "^4.44.1",
+		"webpack-cli": "^3.3.12",
+		"webpack-dev-server": "^3.11.0"
+	},
+	"dependencies": {
+		"normalize.css": "^8.0.1",
+		"swiper": "^6.2.0"
+	}
+}
