@@ -1,7 +1,7 @@
-# <a href="https://github.com/SeniorIgor/Menu-Burger#menu-burger"><img src="https://github.com/SeniorIgor/Bicycle/blob/master/for-readmy.jpg" alt="menu-burger" width="40" height="auto"/></a> Bicycle
+# <a href="https://github.com/SeniorIgor/Menu-Burger#menu-burger"><img src="https://github.com/SeniorIgor/Bicycle/blob/master/for-readmy2.jpg" alt="bicycle" width="40" height="auto"/></a> Bicycle
 ### Bicycle - верстка одностраничного сайта «Yebo_Bicycle» по макету в формате PSD. 
 Проект включает в себя отзывчиво-адаптивную вёрстку лендинга используя HTML, SCSS, БЭМ, JS. Проект собран с помощью Webpack. 
-
+<img src="https://github.com/SeniorIgor/Bicycle/blob/master/for-readmy.jpg" alt="menu-burger" width="100" height="auto"/>
 <br>
 <br>
   
