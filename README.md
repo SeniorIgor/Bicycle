@@ -3,7 +3,7 @@
 Проект включает в себя отзывчиво-адаптивную вёрстку лендинга используя HTML, SCSS, БЭМ, JS. Проект собран с помощью Webpack. 
 
 <br>
-<img src="https://github.com/SeniorIgor/Bicycle/blob/master/for-readmy2.jpg" alt="bicycle" width="200" height="auto"/>
+<img src="https://github.com/SeniorIgor/Bicycle/blob/master/for-readmy2.jpg" alt="bicycle" width="400" height="auto"/>
 <br>
   
 > ### Для запуска приложения выполните следующие действия:
