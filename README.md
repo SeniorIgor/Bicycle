@@ -1,4 +1,4 @@
-# <a href="https://github.com/SeniorIgor/Bicycle#-bicycle"><img src="https://github.com/SeniorIgor/Bicycle/blob/master/for-readmy2.jpg" alt="bicycle" width="40" height="auto"/></a> Bicycle
+# Bicycle
 ### Bicycle - верстка одностраничного сайта «Yebo_Bicycle» по макету в формате PSD. 
 Проект включает в себя отзывчиво-адаптивную вёрстку лендинга используя HTML, SCSS, БЭМ, JS. Проект собран с помощью Webpack. 
 <br>
